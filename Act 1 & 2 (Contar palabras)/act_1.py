@@ -1,4 +1,3 @@
-%%time
 import re
 with open("../Python2/assets/es-11663-8_UTF8.txt", encoding = 'utf-8') as f:
     lines=f.readlines()
