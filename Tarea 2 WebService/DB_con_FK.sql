@@ -3,11 +3,6 @@ select*from todos
 select*from albums
 
 
-INSERT INTO users(user_id, name, username, email)
-VALUES (1, 'ric','rass','ad@hotmail.com');
-
-INSERT INTO todos(id, title, completed)
-VALUES (1, 'piratas del caribe','sdfgsgsds');
 
 
 CREATE TABLE users (
