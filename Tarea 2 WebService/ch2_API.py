@@ -66,3 +66,12 @@ for x in tables:
     api = get(x) 
     data_fun(api, tables[x])
     
+cursor.execute("select*from photos")
+cursor.execute("select*from comments")
+cursor.execute("select*from todos")
+cursor.execute("select*from posts")
+myresult = cursor.fetchall()
+
+for x in myresult:
+    print(x)         
+    
