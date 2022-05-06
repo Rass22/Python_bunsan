@@ -3,8 +3,6 @@ select*from todos
 select*from albums
 
 
-
-
 CREATE TABLE users (
     	user_id integer primary key,
     	name VARCHAR (255),
