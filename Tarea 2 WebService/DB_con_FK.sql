@@ -75,6 +75,5 @@ select*from users
 select*from todos
 select*from albums
 select*from comments
----me faltan estas dos
 select*from posts
 select*from photos
