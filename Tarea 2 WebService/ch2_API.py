@@ -66,6 +66,7 @@ for x in tables:
     api = get(x) 
     data_fun(api, tables[x])
     
+  #Recupero los datos insertados en la tabla    
 cursor.execute("select*from photos")
 cursor.execute("select*from comments")
 cursor.execute("select*from todos")
