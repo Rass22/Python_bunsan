@@ -93,10 +93,10 @@ if __name__ == "__main__":
         r = i
         if (
             i == len(Chopsticks) - 1
-        ):  # * evalua si el palillo izquierdo es el ultimo de la lista, y lo toma como el primero
+        ): 
             l = 0
         else:
-            l = i + 1  # * si no le asigna el siguiente
+            l = i + 1  
             print(f"left {l}, right {r}")
         phil = Philosopher(
             f"P{i+1}",
